@@ -8,4 +8,4 @@ i deployed this site with github pages (also learning a lot about github, deploy
 OKAY enough of the bullsh*t !
 here u go,
 
-Deployment - https://beastgenixofficial.github.io/Portfolio-Site/
+Deployment - https://beastgenixofficial.github.io/PortfolioV1.0/
