@@ -1,0 +1,174 @@
+:root{
+    --bg:#0a0a0a;
+    --card:#111111;
+    --text:#ffffff;
+    --accent:#ef4444;
+}
+
+
+body {
+    background:var(--bg);
+    color:var(--text);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    font-size:50px;
+}
+
+.hero{
+    font-size: 25px;
+    padding:30px;
+
+    margin-top: 20px;
+    text-align: center;
+
+    height:70vh;
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items: center;
+}
+
+.navlinks{
+    display:flex;
+    gap:20px;
+}
+
+nav{
+    padding:20px, 0;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2{
+    color:var(--accent);
+}
+
+a{
+    color:white;
+
+    text-decoration:none;
+
+    transition:0.3s;
+}
+
+a:hover{
+    color:var(--accent);
+}
+
+button{
+    width:auto;
+}
+button{
+    background:var(--accent);
+    padding:12px 24px;
+    font-size: 16px;
+    cursor:pointer;
+    border:none;
+    border-radius: 8px;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:translateY(-3px);
+}
+
+.projects{
+        margin-top: 50px;
+}
+
+.project-container{
+    display:grid;
+
+    grid-template-columns:
+    1fr 1fr 1fr;
+
+    gap:20px;
+}
+
+.card{
+    background:var(--card);
+
+    box-shadow:
+    0 4px 20px rgba(0,0,0,0.4);
+    padding:20px;
+
+    border-radius:12px;
+
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.play-btn{
+    display:inline-block;
+
+    margin-top:15px;
+
+    padding:10px 20px;
+
+    background:white;
+    color:black;
+
+    text-decoration:none;
+
+    border-radius:8px;
+}
+
+.card h3{
+    margin-top:15px;
+    font-size:28px;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+.hero h1{
+    font-size:72px;
+}
+
+.hero p{
+    font-size:22px;
+    color:#b3b3b3;
+}
+
+.projects h2{
+    font-size:42px;
+
+    margin-bottom:30px;
+}
+
+.play-btn{
+    display:inline-block;
+
+    margin-top:15px;
+
+    background:white;
+
+    color:black;
+
+    padding:12px 20px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    transition:0.3s;
+}
+
+.play-btn:hover{
+    transform:translateY(-2px);
+}
